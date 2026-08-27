@@ -17,10 +17,10 @@ Tampermonkey script that extends ČSFD title pages with additional useful inform
 
 ## Tech stack
 
-- Language: JavaScript
-- Library: jQuery
-- API: OMDb API
-- Platform: Tampermonkey
+- **Language:** JavaScript
+- **Library:** jQuery
+- **API:** OMDb API
+- **Platform:** Tampermonkey
 
 ## Installation
 
