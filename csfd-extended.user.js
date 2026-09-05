@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         ČSFD Extended
-// @version      2.9.0
+// @version      2.9.1
 // @description  Extends ČSFD title pages with additional useful information.
 // @author       Jakub Rychecký <jakub@rychecky.cz>
 // @contributor  MK
@@ -33,6 +33,17 @@
 
         setTimeout(showAllPlots, 200);
 
+        let observer = new MutationObserver(function(mutations) {
+            let moreBtn = document.querySelector('.plot-preview-more');
+            if (moreBtn && moreBtn.textContent.trim() == 'více') {
+                showAllPlots();
+                observer.disconnect();
+            }
+        });
+
+        observer.observe(document.body, { childList: true, subtree: true });
+        setTimeout(() => observer.disconnect(), 5000);
+
         document.addEventListener('click', function(e) {
             if (e.target.id == 'all-plots' || e.target.closest('#all-plots')) {
                 setTimeout(showAllPlots, 200);
@@ -40,7 +51,11 @@
         });
     }
 
-    window.onload = onPageLoad;
+    if (document.readyState == 'complete') {
+        onPageLoad();
+    } else {
+        window.addEventListener('load', onPageLoad);
+    }
 
     class Csfd {
         constructor(csfdPage) {
