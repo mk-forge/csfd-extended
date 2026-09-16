@@ -8,9 +8,9 @@ Tampermonkey script that extends ČSFD title pages with additional useful inform
 
 ## Features
 
-- IMDb plot with a short/full toggle, and automatic expansion of shortened plots
+- IMDb plot with a short/full toggle and automatic expansion of shortened plots
 - MPAA rating
-- IMDb, Rotten Tomatoes, and Metascore ratings
+- IMDb, Rotten Tomatoes and Metascore ratings
 - Quick links updated (Trailer, DabingForum, Reel Scary for horror films)
 - OMDb API response caching
 - Automatic expansion of shortened plots
