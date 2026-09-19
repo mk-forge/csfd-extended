@@ -31,5 +31,5 @@ Tampermonkey script that extends ČSFD title pages with additional useful inform
 
 ## Screenshots
 
-![ČSFD Extended features 1](./Screenshots/features1.png)
-![ČSFD Extended features 2](./Screenshots/features2.png)
+![ČSFD Extended features 1](https://raw.githubusercontent.com/mk-forge/csfd-extended/main/Screenshots/features1.png)
+![ČSFD Extended features 2](https://raw.githubusercontent.com/mk-forge/csfd-extended/main/Screenshots/features2.png)
