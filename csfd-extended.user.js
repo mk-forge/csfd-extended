@@ -4,7 +4,7 @@
 // @description  Extends ČSFD title pages with additional useful information.
 // @author       Jakub Rychecký <jakub@rychecky.cz>
 // @contributor  MK
-// @require      https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js
+// @require https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js
 // @license      WTFPL 2
 // @include      *csfd.cz/film/*
 // @include      *csfd.sk/film/*
