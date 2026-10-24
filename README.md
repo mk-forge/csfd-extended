@@ -1,8 +1,8 @@
 # ČSFD Extended
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![jQuery](https://img.shields.io/badge/jQuery-0769AD?logo=jquery&logoColor=white)
-![Tampermonkey](https://img.shields.io/badge/Tampermonkey-000000?logo=tampermonkey&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=white)
+![jQuery](https://img.shields.io/badge/jQuery-0868AC?logo=jquery&logoColor=white)
+![Tampermonkey](https://img.shields.io/badge/Tampermonkey-222222?logo=tampermonkey&logoColor=white)
 
 Tampermonkey script that extends ČSFD title pages with additional useful information.
 
