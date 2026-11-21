@@ -3,6 +3,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=white)
 ![jQuery](https://img.shields.io/badge/jQuery-0868AC?logo=jquery&logoColor=white)
 ![Tampermonkey](https://img.shields.io/badge/Tampermonkey-222222?logo=tampermonkey&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-4A31C3?logo=eslint&logoColor=white)
 
 Tampermonkey script that extends ČSFD title pages with additional useful information.
 
@@ -25,6 +26,7 @@ Tampermonkey script that extends ČSFD title pages with additional useful inform
 - **Library:** jQuery
 - **API:** OMDb API
 - **Platform:** Tampermonkey
+- **Linter:** ESLint
 
 ## Installation
 
